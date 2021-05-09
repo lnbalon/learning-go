@@ -2,10 +2,10 @@ package main
 
 import (
 	"fmt"
-	"time"
+	t "time"
 )
 
 func main() {
 	fmt.Println("Hello World")
-	fmt.Print(time.Now().Date())
+	fmt.Print(t.Now().Date())
 }
