@@ -7,5 +7,5 @@ import (
 
 func main() {
 	fmt.Println("Hello World")
-	fmt.Print(t.Now().Date())
+	fmt.Println(t.Now().Date())
 }
