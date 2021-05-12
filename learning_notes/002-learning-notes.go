@@ -1,10 +1,13 @@
 package main
 
-import "fmt"
-
-var c, python, java bool
+import (
+	"fmt"
+	"math"
+)
 
 func main() {
-	var i int
-	fmt.Println(i, c, python, java)
+	var x, y int = 3, 4
+	var f float64 = math.Sqrt(float64(x*x + y*y))
+	var z uint = uint(f)
+	fmt.Println(x, y, z)
 }
