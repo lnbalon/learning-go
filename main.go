@@ -2,10 +2,12 @@ package main
 
 import (
 	"fmt"
+	b "learning-go/algorithms"
 )
 
 func main(){
-	const kelvinConversion float64 = 273.15
-	fmt.Println("hellow")
-	fmt.Println(kelvinConversion)
+	var x string
+	x = b.Statement("bong")
+	fmt.Println(x)
+
 }
