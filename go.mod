@@ -1,3 +1,3 @@
-module learning-go/algorithms
+module learning-go
 
 go 1.16
